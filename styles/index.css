@@ -65,3 +65,26 @@ margin-right: 2rem;
     padding-right: 1rem;
     padding: 0.5rem;
    }
+
+   .navbar_div{
+    display:flex;
+ 
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid white;
+   }
+
+   ul{
+    list-style: none;
+    display: flex;
+   }
+   li{
+    margin-right: 1rem;
+   }
+   a{
+    text-decoration: none;
+   }
+   a:hover{
+    color: teal;
+   }

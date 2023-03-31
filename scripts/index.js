@@ -1,3 +1,12 @@
+async function getData()
+{
+  let api = await fetch(`https://fakestoreapi.com/products`)
+  let data = await api.json();
+  console.log("data",data)
+}
+getData()
+
+
 let todoArray = JSON.parse(localStorage.getItem("todos")) || [];
 appendTodo();
 
